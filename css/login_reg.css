@@ -1,0 +1,240 @@
+.login {
+    background: #fbedec url("../img/login_reg/login.jpg") no-repeat scroll center center;
+    height: 588px;
+    width: 100%;
+}
+
+.login .loginright {
+    float: right;
+    height: 588px;
+    width: 518px;
+}
+/*跳转去注册*/
+.loginright .loginhead{
+	float: left;
+    font-size: 14px;
+    height: 25px;
+    margin-top: 112px;
+    text-align: right;
+    width: 385px;
+}
+.loginright .loginhead a{
+	color: #db3962;
+}
+/*帐号*/
+.loginnameinput input{
+	color:#777;
+	width: 150px;
+	height: 28px;
+	padding: 1px 3px;
+	margin:41px 0 0 150px;
+	font-size: 14px;
+	border: none;
+}
+
+
+.loginpassinput input{
+	width: 150px;
+	height: 28px;
+	padding: 1px 3px;
+	margin:2px 0 0 150px;
+	font-size: 14px;
+	border: none;
+}
+/*红色警告*/
+.loginwarning{
+	opacity: 0;
+	color: #db3962;
+    float: left;
+    height: 18px;
+    margin-left: 150px;
+    margin-top: 3px;
+    width: 243px;
+}
+/*自动登录*/
+.loginauto{
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    margin-top: 5px;
+    width: 390px;
+}
+.loginauto .loginautobox{
+    float: left;
+    height: 24px;
+    margin-left: 58px;
+    width: 22px;
+}
+
+.loginauto .loginautoboxtext{
+	 float: left;
+    height: 24px;
+    width: 192px;
+}
+
+.loginauto a{
+	display: block;
+	float: left;
+    height: 24px;
+    width: 70px;
+}
+/*登陆按钮*/
+.loginbtn{
+	background: rgba(0, 0, 0, 0) url("../img/login_reg/loginbutn.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 41px;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 321px;
+}
+
+/*第三方登录*/
+.login .loginother{
+	 float: left;
+    height: 60px;
+    margin-left: 49px;
+    margin-top: 40px;
+    text-align: center;
+    width: 330px;
+}
+.login .loginother img {
+    border: medium none;
+    cursor: pointer;
+    margin: 0 9px;
+}
+
+
+
+
+
+/*注册页面*/
+
+.reg {
+    background: #fbedec url("../img/login_reg/reg.jpg") no-repeat scroll center center;
+    height: 588px;
+    width: 100%;
+}
+
+.reg .regright {
+    float: right;
+    height: 588px;
+    width: 518px;
+}
+/*跳转去注册*/
+.regright .reghead{
+	float: left;
+    font-size: 14px;
+    height: 25px;
+    margin-top: 61px;
+    text-align: right;
+    width: 385px;
+}
+.regright .reghead a{
+	color: #db3962;
+}
+/*帐号*/
+
+.regnameinput input{
+	color:#777;
+	width: 150px;
+	height: 28px;
+	padding: 1px 3px;
+	margin:41px 0 0 150px;
+	font-size: 14px;
+	border: none;
+}
+
+
+.regpassinput input{
+	width: 150px;
+	height: 28px;
+	padding: 1px 3px;
+	margin:2px 0 0 150px;
+	font-size: 14px;
+	border: none;
+}
+/*红色警告*/
+.regwarning{
+	opacity: 0;
+	color: #db3962;
+    float: left;
+    height: 18px;
+    margin-left: 150px;
+    margin-top: 3px;
+    width: 243px;
+}
+/*自动登录*/
+.regauto{
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    margin-top: 5px;
+    width: 390px;
+}
+.regauto .regautobox{
+    float: left;
+    height: 24px;
+    margin-left: 58px;
+    width: 22px;
+}
+
+.regauto .regautoboxtext{
+	 float: left;
+    height: 24px;
+    width: 192px;
+}
+
+.regauto a{
+	color: #9C0000;
+    height: 24px;
+    width: 200px;
+}
+/*登陆按钮*/
+.regbtn{
+	background: rgba(0, 0, 0, 0) url("../img/login_reg/regbutn.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 41px;
+    margin-left: 60px;
+    margin-top: 0px;
+    width: 321px;
+}
+
+/*第三方登录*/
+.reg .regother{
+	 float: left;
+    height: 60px;
+    margin-left: 49px;
+    margin-top: 30px;
+    text-align: center;
+    width: 330px;
+}
+.reg .regother img {
+    border: medium none;
+    cursor: pointer;
+    margin: 0 9px;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

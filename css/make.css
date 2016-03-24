@@ -1,0 +1,75 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+body a{text-decoration:none;color:#222;}
+body a:hover{color:#BD3962;}
+body,html{font:12px "微软雅黑";color:#222;}
+img{border:0;}
+a{border:0;}
+ul{list-style:none;}
+/*-----------------------------------制作---------------------------------------------*/
+
+
+
+.productMain{width:100%;height:195px;background:#f3f3f3; overflow: hidden;}
+.productMain .wrap{width:1180px;height:195px;margin:0 auto;}
+.productPath{width:1170px;height:25px;margin:0 auto;padding-left:10px;line-height:25px;}
+.productPath span{margin:0 8px;}
+.productList{width:1180px;margin:0 auto;overflow: hidden;}
+.productList .listLeft{width:240px;float: left;}
+.productList .listLeft .listwrap{width:240px;border:1px solid #ececec;}
+.productList .listLeft p{background:url(../img/makebg.jpg);width:240px;height:35px;font-weight:600;text-indent:10px;line-height:35px;}
+.productList .listLeft .listNode{width:202px;padding:15px 19px 5px;}
+.productList .listLeft .listNode .nodehead{width:202px;height:35px;line-height:20px;font-size:14px;font-weight:600;}
+.productList .listLeft .listNode .nodehead .defaultdehead{padding:0 9px;cursor:pointer;}
+.productList .listLeft .listNode .nodehead .nodeshow{background:url(../img/showbg.png) no-repeat 0 1px;}
+.productList .listLeft .listNode .nodehead .nodehide{background:url(../img/hidebg.png) no-repeat 0 1px;}
+.productList .listLeft .listNode .nodeitem{overflow:hidden;width:202px;background:#fafafa;border-bottom:1px dashed #d1d1d1;border-top:1px dashed #d1d1d1;line-height:30px;margin-bottom:15px;padding:5px 0;}
+.productList .listLeft .listNode .nodeitem a{padding-left:21px;display:block;width:80px;float:left;}
+.productList .listLeft .listhots{width:202px;padding:19px 19px 6px;}
+.productList .listLeft .listhots img{width:200px;height:200px;border:1px solid #d2d2d2;}
+.productList .listLeft .listhots .productname{display:block;line-height:40px;text-align:center;}
+.productList .listLeft .listhots .productprice{display:block;line-height:40px;text-align:center;}
+.productList .listLeft .listhots span{margin:0 10px;color:red;}
+.productList .listLeft .listImg{width:242px;margin-top:10px;}
+.productList .listLeft .listImg a{display:block;margin-top:10px;width:240px;}
+.productList .listLeft .listImg img{width:240px;border:1px solid #d2d2d2;}
+
+.productList .listRight{width:922px;hieght:100%;float:right;overflow:hidden;}
+.productList .listRight .listselect{width:920px;background:#f8f8f8;border:1px solid #cecece;padding:10px 0;}
+.productList .listRight .listselect .selectwrap{line-height:40px;width:900px;height:40px;margin:0 auto;border-bottom:1px dashed #cecece;}
+.productList .listRight .listselect .selectwrap span{margin-right:20px;}
+.productList .listRight .listselect .selectwrap a{margin:0 10px;}
+.productList .listRight .topPageList{width:880px;padding:18px 20px 2px;text-align:right;float:left;}
+.productList .listRight .topPageList span{margin:0 5px;padding:0 8px;}
+.productList .listRight .topPageList span.c{background:#d8d8d8;padding:5px 8px;border:1px solid #d2d2d2;}
+.productList .listRight .topPageList a{margin:0 5px;padding:5px 8px;border:1px solid #d2d2d2;}
+.productList .listRight .topPageList span.m{padding:2px;}
+.productList .listRight .listNavHeader{float:left;overflow:hidden;padding:0;width:920px;height:35px;margin-top:20px;line-height:35px;border:1px solid #cecece;background:url(../img/makebg.jpg);}
+.productList .listRight .listNavHeader .headItem{display:block;width:70px;height:35px;line-height:35px;float:left;text-align:center;}
+.productList .listRight .listNavHeader .headline{background:url(../img/linebg.png) no-repeat;display:block;width:12px;height:35px;text-align:center;line-height:35px;float:left;}
+.productList .listRight .listWraper{overflow:hidden;width:921px;margin-top:20px;float:left;border-top:1px solid #cecece;border-left:1px solid #cecece;}
+.productList .listRight .listWraper .wrapItem{width:306px;height:290px;float:left;overflow:hidden;border-right:1px solid #cecece;border-bottom:1px solid #cecece;}
+.productList .listRight .listWraper .wrapItem dt{width:306px;height:220px;text-align:center;}
+.productList .listRight .listWraper .wrapItem dt img{width:200px;height:200px;}
+.productList .listRight .listWraper .wrapItem dt a{display:inline-block;vertical-align:middle;}
+.productList .listRight .listWraper .wrapItem dt span{width:0;height:100%;display:inline-block;vertical-align:middle;}
+.productList .listRight .listWraper .wrapItem dd{width:306px;height:70px;}
+.productList .listRight .listWraper .wrapItem dd h3{width:306px;height:35px;text-align:center;line-height:35px;}
+.productList .listRight .listWraper .wrapItem dd p{text-indent:10px;background:#f8f8f8;width:306px;height:35px;line-height:35px;}
+.productList .listRight .listWraper .wrapItem dd span{color:red;font-size:14px;}
+.productList .listRight .listWraper .wrapItem dd del{margin-right:70px;}
+
+.productList .listRight .topPageList1{width:880px;padding:18px 20px 2px;text-align:right;float:left;margin-bottom:20px;}
+.productList .listRight .topPageList1 span{margin:0 5px;padding:0 8px;}
+.productList .listRight .topPageList1 span.c{background:#d8d8d8;padding:5px 8px;border:1px solid #d2d2d2;}
+.productList .listRight .topPageList1 a{margin:0 5px;padding:5px 8px;border:1px solid #d2d2d2;}
+.productList .listRight .topPageList1 span.m{padding:2px;}
+
+
+
+
+.fixTop{position: fixed; top: 0; }
+
+
+
+

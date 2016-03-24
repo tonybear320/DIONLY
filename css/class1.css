@@ -1,0 +1,575 @@
+.diamondmain {
+	clear: both;
+	width: 100%;
+	height: 195px;
+	background: #F3F3F3;
+}
+
+.diamondmain .wrap {
+	margin: 0 auto;
+	width: 1180px;
+	height: 195px;
+	overflow: hidden;
+}
+
+.diamondpath {
+	clear: both;
+	margin: 0 auto;
+	padding-left: 10px;
+	width: 1170px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.diamondpath span {
+	margin: 0 8px;
+}
+
+.diamondfind {
+	clear: both;
+	margin: 0 auto;
+	padding: 20px;
+	width: 1138px;
+	border: 1px solid #CECECE;
+	background: #F8F8F8;
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+.diamondfind .findwrap {
+	float: left;
+	width: 1138px;
+	height: 40px;
+	border-bottom: 1px dashed #CECECE;
+}
+
+.diamondfind .findwrap .wraphead {
+	float: left;
+	padding-left: 10px;
+	width: 135px;
+	height: 40px;
+	line-height: 40px;
+	color: #DB3962;
+}
+
+.diamondfind .findwrap .wrapitem {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+.diamondfind .findwrap .wrapitem .imgs {
+	cursor: pointer;
+	float: left;
+	margin: 8px 0;
+	padding: 0 15px;
+	height: 24px;
+	line-height: 24px;
+	border-right: 1px solid #636363;
+}
+
+.diamondfind .findwrap .wrapitem .imgs img {
+	margin-top: 3px;
+}
+
+.diamondfind .findwrap .wrapitem input {
+	padding: 2px;
+	width: 80px;
+	border: 1px solid #CECECE;
+}
+
+.diamondfind .findwrap .wrapitem .span {
+	float: left;
+	width: 2px;
+	margin-left: 5px;
+	margin-right: 12px;
+}
+
+.diamondfind .findwrap .wrapitem .w070 {
+	float: left;
+	width: 80px;
+	cursor: pointer;
+}
+
+.diamondfind .findwrap .wrapitem .w070:hover {
+	color: #DB3962;
+	font-weight: bold;
+}
+
+.diamondfind .findwrap .wrapitem .w100 {
+	float: left;
+	width: 100px;
+}
+
+.diamondfind .findwrap .wrapitem .wauto {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.diamondfind .findwrap .wrapitem .wauto:hover {
+	color: #DB3962;
+	font-weight: bold;
+}
+
+.diamondfind .findwrap .wrapitem .itemgoodselect {
+	color: red;
+	font-weight: bold;
+}
+
+.diamondfind .findwrap .wrapitem .itemflourselect {
+	color: red;
+	font-weight: bold;
+}
+
+.diamondfind .findwrap .wrapitem .w140 {
+	float: left;
+	width: 140px;
+}
+
+.diamondfind .findwrap .wrapitem .w160 {
+	float: left;
+	width: 160px;
+}
+
+.diamondfind .findbutn {
+	float: left;
+	padding-top: 15px;
+	width: 1138px;
+	height: 40px;
+}
+
+.diamondfind .findbutn .button {
+	float: left;
+	margin-left: 145px;
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #636363;
+	cursor: pointer;
+	border: 1px solid #5E5E5E;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.diamondfind .findbutn .button:hover {
+	background: #5E5E5E;
+}
+
+.selecttab {
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	width: 1179px;
+	border: none;
+	overflow: hidden;
+}
+
+.selecttab .findhead {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	border: 1px solid #CCCCCC;
+	border-bottom: 0px;
+}
+
+.selecttab .findhead .headitem {
+	float: left;
+	padding: 5px;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+	text-align: center;
+	border-right: 1px solid #CCCCCC;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.selecttab .findhead .headselect {
+	background: #F5F5F5 url(/images/diamond/select.gif) right bottom no-repeat;
+}
+
+.diamondlist {
+	clear: both;
+	margin: 25px auto 0 auto;
+	width: 1180px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+
+.diamondlist .listleft {
+	float: left;
+	width: 920px;
+	border: 1px solid #CECECE;
+}
+
+.diamondlist .listleft .listhead {
+	float: left;
+	padding: 10px 0;
+	width: 920px;
+	height: 15px;
+	line-height: 15px;
+	background: url(/images/diamond/headbg.png);
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listhead .headbox {
+	float: left;
+	margin-left: 10px;
+	width: 60px;
+	height: 15px;
+	text-align: center;
+	border-right: 1px solid #5E5E5E;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listhead .headtext {
+	float: left;
+	width: 64px;
+	height: 15px;
+	text-align: center;
+	border-right: 1px solid #5E5E5E;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listhead .giaheadtext {
+	float: left;
+	width: 55px;
+	height: 15px;
+	text-align: center;
+	border-right: 1px solid #5E5E5E;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listhead .headprice {
+	float: left;
+	width: 86px;
+	height: 15px;
+	text-align: center;
+	border-right: 1px solid #5E5E5E;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listhead .headorder {
+	float: left;
+	margin-right: 10px;
+	width: 74px;
+	height: 15px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem {
+	float: left;
+	margin: 0px;
+	width: 906px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dashed #5E5E5E;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .itembox {
+	float: left;
+	padding-right: 1px;
+	padding-top: 8px;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .itemtext {
+	float: left;
+	padding-right: 1px;
+	width: 64px;
+	height: 35px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .giaitemtext {
+	float: left;
+	padding-right: 1px;
+	width: 53px;
+	height: 35px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .itemtext img {
+	margin-top: 9px;
+}
+
+.diamondlist .listleft .listitem .itemgray {
+	float: left;
+	padding-right: 1px;
+	width: 86px;
+	height: 35px;
+	text-align: center;
+	text-decoration: line-through;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .itemprice {
+	float: left;
+	padding-right: 1px;
+	width: 86px;
+	height: 35px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .itemorder {
+	float: left;
+	width: 80px;
+	height: 35px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.diamondlist .listleft .listitem .itemorder img {
+	margin-top: 8px;
+}
+
+.diamondlist .listleft .listitem .itemorder span {
+	float: left;
+	margin-left: 14px;
+	margin-top: 6px;
+	width: 50px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	background: #F2F2F2;
+	cursor: pointer;
+	border: 1px solid #D8D8D8;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.diamondlist .listleft .listpage {
+	float: left;
+	padding: 22px 20px;
+	width: 880px;
+	text-align: right;
+}
+
+.diamondlist .listleft .listpage a {
+	margin: 0 5px;
+	padding: 5px 8px;
+	font-size: 12px;
+	border: solid 1px #D2D2D2;
+	background: #EEEEEE;
+}
+
+.diamondlist .listleft .listpage a:hover {
+	text-decoration: none;
+	background: #D8D8D8;
+}
+
+.diamondlist .listleft .listpage span {
+	margin: 0 5px;
+	padding: 0 8px;
+}
+
+.diamondlist .listleft .listpage span.m {
+	padding: 2px;
+}
+
+.diamondlist .listleft .listpage span.c {
+	padding: 5px 8px;
+	border: solid 1px #D2D2D2;
+	background: #D8D8D8;
+}
+
+.diamondlist .listrightwrap {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 242px;
+}
+
+.diamondlist .listright {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 240px;
+	border: 1px solid #CECECE;
+	overflow: hidden;
+}
+
+.diamondlist .listright .listhead {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 240px;
+	height: 35px;
+	line-height: 35px;
+	background: url(/images/diamond/headbg.png);
+	text-indent: 10px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.diamondlist .listright .scrollup {
+	float: left;
+	width: 240px;
+	height: 26px;
+	border-bottom: solid 1px #D2D2D2;
+	background: url(/images/diamond/scrollup.png);
+	overflow: hidden;
+}
+
+.diamondlist .listright .scrolldown {
+	float: left;
+	width: 240px;
+	height: 26px;
+	border-top: solid 1px #D2D2D2;
+	background: url(/images/diamond/scrolldown.png);
+	overflow: hidden;
+}
+
+.diamondlist .listright .scrollwrap {
+	float: left;
+	padding: 19px 19px 6px 19px;
+	width: 202px;
+}
+
+.diamondlist .listright .scrollwrap .productimg {
+	float: left;
+	width: 202px;
+	height: 200px;
+}
+
+.diamondlist .listright .scrollwrap .productimg img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #D2D2D2;
+}
+
+.diamondlist .listright .scrollwrap .productname {
+	float: left;
+	width: 202px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.diamondlist .listright .articlewrap {
+	float: left;
+	padding: 10px 15px 10px 15px;
+	width: 210px;
+}
+
+.diamondlist .listright .articleitem {
+	float: left;
+	width: 210px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.diamondfind .findwrap .wrapitem .diaimgs {
+	cursor: pointer;
+	float: left;
+	margin: 8px 0;
+	padding: 0 15px;
+	height: 24px;
+	line-height: 24px;
+	border-right: 1px solid #636363;
+	width: 30px;
+}
+
+.diamondfind .findwrap .wrapitem .diaimgs .spanimg {
+	margin-left: 8px;
+	float: left;
+	width: 45px;
+	height: 25px;
+}
+
+.diamondfind .findwrap .wrapitem .diaimgs .spantxt {
+	float: left;
+	width: 45px;
+	height: 25px;
+	padding-left: 6px
+}
+
+@charset "utf-8";
+.Zxs li {
+	list-style: none;
+}
+
+.Zxs a {
+	text-decoration: none;
+}
+
+.Zxs img {
+	border: 0;
+}
+
+
+/*咨询入口*/
+
+.Zxs {
+	width: 64px;
+	/*overflow:hidden;*/
+	position: fixed;
+	right: 5px;
+	bottom: 100px;
+	z-index: 30;
+}
+
+.Zxs li {
+	width: 64px;
+	height: 64px;
+	background: #c11e20;
+	margin-top: 2px;
+	position: relative;
+}
+
+.Zxs li .Eyj {
+	position: absolute;
+	left: -154px;
+	top: -40px;
+	display: none;
+	border: 1px solid transparent;
+}
+
+.Zxs li:hover {
+	background: #D0383A;
+}
+
+.Zxs li .Dbs {
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+}
+
+.Zxs li .Dbs img {
+	display: block;
+	margin: 10px auto;
+}
+
+.Zxs li .Fnts {
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 400;
+}

@@ -1,0 +1,787 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body img {
+	border: medium none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+body a {
+	color: #222222;
+	text-decoration: none;
+}
+
+body a:hover {
+	color: #db3962;
+}
+body {
+	color: #222222;
+	font: 12px "microsoft yahei";
+}
+
+
+.wrap {
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*------------------topbar-------------------------*/
+
+.topbar {
+	background: #f3f3f3;
+	width: 100%;
+	height: 38px;
+	clear: both;
+}
+
+.topbar .wrap {
+	height: 38px;
+}
+
+.topbar .wrap .left {
+	width: 550px;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+}
+
+.topbar .wrap .right {
+	width: 630px;
+	height: 38px;
+	line-height: 38px;
+	float: right;
+	text-align: right;
+}
+
+.topbar .wrap .right a {
+	margin: 0 10px;
+}
+
+
+/*我的戴欧妮*/
+
+.topbar .wrap .right .user {
+	background: rgba(0, 0, 0, 0) url("../img/common/icon.png") no-repeat scroll 0 -20px;
+	padding-left: 20px;
+}
+
+
+/*我的珠宝箱*/
+
+.topbar .wrap .right .cart span {
+	font-weight: 900;
+	color: #db3962;
+}
+
+
+/*正品认证*/
+
+.topbar .wrap .right .certify {
+	background: rgba(0, 0, 0, 0) url("../img/common/icon.png") no-repeat scroll 0 -39px;
+	padding-left: 17px;
+}
+
+
+/*预约进店*/
+
+.topbar .wrap .right .yuyue {
+	background: rgba(0, 0, 0, 0) url("../img/common/icon.png") no-repeat scroll 0 -39px;
+	padding-left: 17px;
+}
+
+
+/*手机版*/
+
+.topbar .wrap .right .mobile {
+	background: rgba(0, 0, 0, 0) url("../img/common/icon.png") no-repeat scroll 0 -64px;
+	padding-left: 22px;
+}
+
+
+/*微信*/
+
+.topbar .wrap .right .weixin {
+	background: rgba(0, 0, 0, 0) url("../img/common/icon.png") no-repeat scroll 0 -96px;
+	padding-left: 25px;
+}
+
+
+/*微博*/
+
+.topbar .wrap .right .weibo {
+	background: rgba(0, 0, 0, 0) url("../img/common/icon.png") no-repeat scroll 0 -129px;
+	margin-right: 2px;
+	padding-left: 26px;
+}
+
+
+/*------------------header------------------------*/
+
+.header {
+	background: #ffffff none repeat scroll 0 0;
+	clear: both;
+	height: 100px;
+	width: 100%;
+}
+
+.header .wrap {
+	height: 90px;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+
+
+/*logo*/
+
+.header .wrap .logo {
+	width: 200px;
+	height: 90px;
+	float: left;
+}
+
+
+/*二联二维码*/
+
+.header .wrap .code {
+	float: right;
+	height: 90px;
+	width: 240px;
+}
+
+
+/*搜索大div*/
+
+.header .wrap .main {
+	float: right;
+	height: 90px;
+	width: 550px;
+}
+
+
+/*搜索框*/
+
+.header .wrap .main .search {
+	border: 1px solid #6d6c6c;
+	float: left;
+	height: 30px;
+	margin-left: 150px;
+	margin-top: 18px;
+	width: 260px;
+}
+
+.header .wrap .main .search .input {
+	border: medium none;
+	float: left;
+	height: 30px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	width: 198px;
+}
+
+.header .wrap .main .search .input input {
+	border: none;
+	color: #7d7d7d;
+	height: 26px;
+	line-height: 26px;
+	width: 194px;
+	outline: none;
+}
+
+.header .wrap .main .search .submit {
+	background: #6d6c6c none repeat scroll 0 0;
+	border-left: 1px solid #6d6c6c;
+	color: #ffffff;
+	cursor: pointer;
+	float: right;
+	font-size: 14px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	width: 60px;
+}
+
+
+/*热词*/
+
+.header .wrap .main .hotkey {
+	clear: both;
+	float: left;
+	height: 30px;
+	margin-left: 150px;
+	margin-top: 10px;
+	width: 228px;
+}
+
+.header .wrap .main .hotkey a {
+	color: #7d7d7d;
+	margin-right: 6px;
+}
+
+.header .wrap .main .hotkey a:hover {
+	color: #db3962;
+}
+
+
+/*------------------menuer------------------------*/
+
+.menuer {
+	background: #ffffff none repeat scroll 0 0;
+	clear: both;
+	height: 38px;
+	width: 100%;
+}
+
+.menuer .wrap {
+	height: 38px;
+	overflow: visible;
+}
+
+.menuer .wrap .menu {
+	float: left;
+	height: 38px;
+	width: 200px;
+}
+
+.menuer .wrap .menu ul.topmenu {
+	float: left;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+}
+
+.menuer .wrap .menu ul.topmenu li {
+	background: #c11e20 url("../img/common/menuericon.png") no-repeat scroll 160px 0;
+	color: #ffffff;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	margin: 0;
+	padding: 0 0 0 17px;
+	position: relative;
+	width: 183px;
+	z-index: 999;
+}
+
+
+/*隐藏的submenu*/
+
+.menuer .wrap .menu ul.topmenu li ul.submenu {
+	background: #312d2d none repeat scroll 0 0;
+	display: none;
+	float: left;
+	left: 0;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 38px;
+	width: 200px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li {
+	background: #312d2d none repeat scroll 0 0;
+	clear: both;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 25px;
+	margin: 0;
+	padding: 8px 5px 1px;
+	width: 190px;
+}
+
+
+/*submenu下的各个li*/
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li.first {
+	background: #383333 none repeat scroll 0 0;
+	height: 81px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li.second {
+	background: #312d2d none repeat scroll 0 0;
+	height: 81px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li.third {
+	background: #383333 none repeat scroll 0 0;
+	height: 57px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li.fourth {
+	background: #312d2d none repeat scroll 0 0;
+	height: 51px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li.fifth {
+	background: #383333 none repeat scroll 0 0;
+	height: 32px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li.last {
+	background: #312d2d none repeat scroll 0 0;
+	height: 32px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li a.hots {
+	color: #ffffff;
+	float: left;
+	margin-left: 12px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li a.join {
+	color: #ffffff;
+	float: left;
+	margin-left: 15px;
+	width: 100px;
+	font-weight: bold;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li a {
+	color: #ffffff;
+	float: left;
+	margin-left: 12px;
+	width: 50px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li a.bold {
+	float: left;
+	font-weight: bold;
+	margin-left: 12px;
+	width: 36px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li a.nbsp {
+	margin-left: 60px;
+}
+
+.menuer .wrap .menu ul.topmenu li ul.submenu li:hover {
+	background: #1c1919;
+}
+
+
+/*导航栏的首页*/
+
+.menuer .wrap .home {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 25px 0 50px;
+}
+
+
+/*导航栏*/
+
+.menuer .wrap .item {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 20px;
+}
+
+
+/*导航栏的末尾电话*/
+
+.menuer .wrap .phone {
+	float: right;
+	height: 38px;
+	width: 240px;
+}
+
+
+/*------------------footer------------------------*/
+
+.footer {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	clear: both;
+}
+
+.footer .cityshop {
+	background: #ffffff none repeat scroll 0 0;
+	height: 260px;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 1180px;
+}
+
+
+/*体验中心城市列表*/
+
+.footer .cityshop .line {
+	background: rgba(0, 0, 0, 0) url(../img/common/line.gif) repeat scroll 0 0;
+	float: left;
+	height: 35px;
+	overflow: hidden;
+	width: 1180px;
+}
+
+.footer .cityshop .line .text {
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15px;
+	width: 385px;
+}
+
+.footer .cityshop .line .list {
+	float: left;
+}
+
+
+/*划过时添加样式 .select */
+
+.footer .cityshop .line .select {
+	background: rgba(0, 0, 0, 0) url("../img/common/select.gif") repeat scroll 0 0;
+	color: #8a0003;
+}
+
+.footer .cityshop .line .name {
+	cursor: pointer;
+	float: left;
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	width: 65px;
+}
+
+
+/*左城市div*/
+
+.footer .cityshop .city {
+	background: rgba(0, 0, 0, 0) url(../img/common/map.png) no-repeat scroll 0 0;
+	border-left: 1px solid #6b6b6b;
+	float: left;
+	font-size: 14px;
+	height: 225px;
+	line-height: 32px;
+	overflow: hidden;
+	text-align: center;
+	width: 678px;
+}
+
+.footer .cityshow {
+	display: block;
+}
+
+.footer .cityhide {
+	display: none;
+}
+
+.footer .cityshop .city .local {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 35px 0 25px;
+}
+
+.footer .cityshop .city {
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+}
+
+
+/*商场图片*/
+
+.footer .cityshop .shop {
+	float: left;
+	height: 225px;
+	overflow: hidden;
+	width: 500px;
+}
+
+
+/*分割线*/
+
+.footer .cityline {
+	background: rgba(0, 0, 0, 0) url("../img/common/linebg.jpg") repeat scroll 0 0;
+	clear: both;
+	height: 30px;
+	margin: 0 auto;
+	width: 1180px;
+}
+
+
+/*承诺保证*/
+
+.footer .security {
+	background: #ffffff url("../img/common/security.jpg") no-repeat scroll center center;
+	height: 85px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+/*售后*/
+
+.footer .shouhou {
+	background: #e9e9e9 none repeat scroll 0 0;
+	border-top: 1px solid #cccccc;
+	height: 130px;
+	margin: 0 auto;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.footer .shouhou .wrap {
+	background: rgba(0, 0, 0, 0) url("../img/common/shouhou.png") no-repeat scroll 0 0;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	height: 130px;
+}
+
+.footer .shouhou .wrap ul li {
+	border-right: 1px solid #cccccc;
+	float: left;
+	height: 130px;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+	width: 195px;
+}
+
+.footer .shouhou .wrap ul li div {
+	float: left;
+	padding-left: 50px;
+	padding-top: 15px;
+}
+
+.footer .shouhou .wrap ul li div span {
+	float: left;
+	font-weight: bold;
+	line-height: 30px;
+	width: 145px;
+}
+
+.footer .shouhou .wrap ul li div a {
+	color: #555555;
+	float: left;
+	line-height: 24px;
+	width: 145px;
+}
+body .footer .shouhou .wrap a:hover {
+	color: #db3962;
+}
+
+/*联系方式*/
+
+.footer .contact {
+	background: #333333 none repeat scroll 0 0;
+	height: 66px;
+	margin: 0 auto;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.footer .contact .wrap {
+	color: #b9b9b9;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0 5px;
+	width: 1170px;
+}
+
+
+/*联系方式左大*/
+
+.footer .contact .wrap .left {
+	float: left;
+	width: 1000px;
+}
+
+.footer .contact .wrap .left .address {
+	height: 35px;
+	line-height: 35px;
+	width: 1000px;
+}
+
+.footer .contact .wrap .left .copyright {
+	height: 30px;
+	line-height: 30px;
+	width: 1000px;
+}
+
+
+/*联系方式右小*/
+
+.footer .contact .wrap .right {
+	float: left;
+	text-align: right;
+	width: 170px;
+}
+
+.footer .contact .wrap .right .hotline {
+	height: 35px;
+	line-height: 35px;
+	width: 170px;
+}
+
+.footer .contact .wrap .right .phonenumber {
+	font-family: "黑体";
+	font-size: 20px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 25px;
+	width: 170px;
+}
+
+
+/*各种认证*/
+
+.footer .footicon {
+	background: #ffffff none repeat scroll 0 0;
+	height: 53px;
+	margin: 0 auto;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.footer .footicon .wrap {
+	background: rgba(0, 0, 0, 0) url("../img/common/footicon.gif") repeat scroll 0 0;
+	height: 53px;
+	overflow: hidden;
+}
+
+.footer .footicon .wrap a.last {
+	margin-right: 0;
+}
+
+.footer .footicon .wrap a {
+	float: left;
+	height: 53px;
+	margin-right: 53px;
+	width: 123px;
+}
+
+
+/*友情链接*/
+
+.footer .friendlink {
+	background: #f0f0f0 none repeat scroll 0 0;
+	border-top: 1px solid #cccccc;
+	color: #999999;
+	height: 105px;
+	margin: 0 auto;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.footer .friendlink a {
+	color: #888888;
+}
+
+.footer .friendlink .wrap {
+	height: 80px;
+	line-height: 25px;
+	padding: 0 5px;
+}
+
+.footer .friendlink .wrap .left {
+	float: left;
+	font-weight: bold;
+	width: 70px;
+}
+
+.footer .friendlink .wrap .right {
+	float: left;
+	width: 1100px;
+}
+
+.footer .friendlink .wrap .right a {
+	margin-right: 8px;
+	white-space: nowrap;
+}
+
+.footer .friendlink .link {
+	height: 25px;
+	line-height: 25px;
+	margin: 0 auto;
+	padding: 0 5px;
+	text-align: right;
+	width: 1170px;
+}
+
+body .footer a:hover {
+	color: #db3962;
+}
+/*右侧浮空栏*/
+
+.Zxs {
+	bottom: 100px;
+	position: fixed;
+	right: 5px;
+	width: 64px;
+	z-index: 30;
+}
+
+.Zxs li {
+	background: #c11e20 none repeat scroll 0 0;
+	height: 64px;
+	margin-top: 2px;
+	position: relative;
+	width: 64px;
+	cursor: pointer;
+}
+
+.Zxs li a {
+	width: 64px;
+	height: 64px;
+}
+
+.Zxs li .Dbs {
+	height: 40px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.Zxs li .Dbs img {
+	display: block;
+	margin: 10px auto;
+}
+
+.Zxs li .Fnts {
+	color: #fff;
+	font-family: 宋体;
+	font-size: 12px;
+	font-weight: 400;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 100%;
+}
+
+.Zxs li .Eyj {
+	border: 1px solid transparent;
+	display: none;
+	left: -154px;
+	position: absolute;
+	top: -40px;
+}
+
+
+.mobilewrap{
+	width: 100%;
+	height: 615px;
+	background: url(../img/common/mobilebg.jpg) no-repeat center;
+	
+}
